@@ -1,4 +1,3 @@
-
 export default function RootLayout({
   children,
 }: {
@@ -7,9 +6,13 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <head>
-        <title>Hello</title>
+        <title>Dashboard</title>
       </head>
-      <body><>I am in global layout</><br></br>{children}</body>
+      <body>
+        <h1>Login</h1>
+        <br></br>
+        {children}
+        </body>
     </html>
   )
 }
