@@ -1,5 +1,5 @@
 
-export default function RootLayout({
+export default function DashboardLayout({
   children,
 }: {
   children: React.ReactNode
@@ -13,7 +13,7 @@ export default function RootLayout({
         <h1>Dashboard</h1>
         <br></br>
         {children}
-        </body>
+      </body>
     </html>
   )
 }
